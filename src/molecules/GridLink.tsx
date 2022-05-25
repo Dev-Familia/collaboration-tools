@@ -2,7 +2,7 @@ import { GridItem, Heading } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import MotionDiv from '../atoms/MotionDiv'
+import MotionDiv from 'atoms/MotionDiv'
 
 export type GridLinkItem = {
   name: string

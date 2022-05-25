@@ -43,3 +43,8 @@ yarn build
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+## Contributing
+
+Configuration of absolute imports was based on [the article](https://medium.com/hackernoon/absolute-imports-with-create-react-app-4c6cfb66c35d).   
+
+

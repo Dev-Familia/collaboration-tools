@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { GridLinkItems } from '../organisms/GridLinks'
-import { Paths } from '../Routes'
-import MainPage from '../templates/MainPage'
+import { GridLinkItems } from 'organisms/GridLinks'
+import { Paths } from 'Routes'
+import MainPage from 'templates/MainPage'
 
 const Home: React.FC = () => {
   const appLinks: GridLinkItems = [

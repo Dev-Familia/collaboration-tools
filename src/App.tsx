@@ -2,7 +2,7 @@ import { Box } from '@chakra-ui/react'
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 
-import Routes from './Routes'
+import Routes from 'Routes'
 
 const App: React.FC = () => (
   <Box

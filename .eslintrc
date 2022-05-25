@@ -4,6 +4,24 @@
     "browser": true,
     "es2021": true
   },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ]
+      }
+    }
+  },
+  "plugins": ["react", "@typescript-eslint", "sonarjs", "promise"],
   "extends": [
     "react-app",
     "react-app/jest",
@@ -28,15 +46,6 @@
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "plugins": ["react", "@typescript-eslint", "sonarjs", "promise"],
   "rules": {
     "prefer-promise-reject-errors": "off",
 
