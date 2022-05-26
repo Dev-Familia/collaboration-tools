@@ -1,9 +1,11 @@
 import React from 'react'
 
+import ToolPage from 'templates/ToolPage'
+
 const Team: React.FC = () => (
-  <div>
+  <ToolPage>
     <h1>Team</h1>
-  </div>
+  </ToolPage>
 )
 
 export default Team

@@ -15,7 +15,6 @@ const MainPage: React.FC<MainPageProps> = ({ title, items }) => (
     justify="center"
     h={['100%', '100vh']}
     w="100vw"
-    bg="purple.900"
     bgGradient={'linear(to-br, gray.100, purple.100)'}
     color="gray.800"
     textAlign="center"

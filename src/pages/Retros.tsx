@@ -1,9 +1,11 @@
 import React from 'react'
 
+import ToolPage from 'templates/ToolPage'
+
 const Retros: React.FC = () => (
-  <div>
+  <ToolPage>
     <h1>Retros</h1>
-  </div>
+  </ToolPage>
 )
 
 export default Retros

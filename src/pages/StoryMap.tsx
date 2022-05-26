@@ -1,9 +1,11 @@
 import React from 'react'
 
+import ToolPage from 'templates/ToolPage'
+
 const StoryMap: React.FC = () => (
-  <div>
+  <ToolPage>
     <h1>StoryMap</h1>
-  </div>
+  </ToolPage>
 )
 
 export default StoryMap

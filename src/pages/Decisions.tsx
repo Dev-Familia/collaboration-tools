@@ -1,9 +1,11 @@
 import React from 'react'
 
+import ToolPage from 'templates/ToolPage'
+
 const Decisions: React.FC = () => (
-  <div>
+  <ToolPage>
     <h1>Decisions</h1>
-  </div>
+  </ToolPage>
 )
 
 export default Decisions
