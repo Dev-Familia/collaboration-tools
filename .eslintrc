@@ -47,6 +47,7 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
+    "capitalized-comments": "off",
     "prefer-promise-reject-errors": "off",
 
     "quotes": ["warn", "single", { "avoidEscape": true }],
