@@ -16,9 +16,9 @@ const MobileMainMenu: React.FC<MainMenuProps> = ({ linkItems }) => {
     <Flex
       as="nav"
       w="100%"
-      p={4}
+      p="4"
       justifyContent="space-between"
-      alignItems="baseline"
+      alignItems="center"
     >
       <Text
         fontSize="xl"
@@ -31,7 +31,7 @@ const MobileMainMenu: React.FC<MainMenuProps> = ({ linkItems }) => {
         <HamburgerIcon />
       </Button>
       <BottomPanel {...bottomPanelProps}>
-        <Stack spacing={4}>
+        <Stack spacing="4">
           {linkItems.map((link) => (
             <NavLink
               key={link.path}

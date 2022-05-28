@@ -13,7 +13,7 @@ const MainPage: React.FC<MainPageProps> = ({ title, items }) => (
     direction="column"
     align="center"
     justify="center"
-    h={['100%', '100vh']}
+    minH="100vh"
     w="100vw"
     bgGradient={'linear(to-br, gray.100, purple.100)'}
     color="gray.800"
