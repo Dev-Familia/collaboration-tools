@@ -18,10 +18,10 @@ export enum Paths {
 }
 
 export const mainLinks: readonly LinkItem[] = [
-  { name: 'Team', path: Paths.Team },
+  // { name: 'Team', path: Paths.Team },
   { name: 'Decisions', path: Paths.Decisions },
-  { name: 'Story Map', path: Paths.StoryMap },
-  { name: 'Retros', path: Paths.Retros },
+  // { name: 'Story Map', path: Paths.StoryMap },
+  // { name: 'Retros', path: Paths.Retros },
 ] as const
 
 const AppRoutes: React.FC = () => (
