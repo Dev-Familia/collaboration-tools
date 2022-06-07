@@ -1,4 +1,4 @@
-import { createUUID } from 'services/generators/uuid'
+import { createUUID } from '@/services/generators/uuid'
 
 export enum DecisionState {
   ProblemDefinition = 'Problem definition',

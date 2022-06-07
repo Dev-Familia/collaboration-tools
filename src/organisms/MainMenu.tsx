@@ -1,7 +1,7 @@
 import { useMediaQuery } from '@chakra-ui/react'
 import React from 'react'
 
-import { LinkItem } from 'Routes'
+import { LinkItem } from '@/routes'
 
 import DesktopMainMenu from './DesktopMainMenu'
 import MobileMainMenu from './MobileMainMenu'

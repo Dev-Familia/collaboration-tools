@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Decision, DecisionState } from 'features/decisions/Decision'
-import DecisionItem from 'organisms/DecisionItem'
-import ItemList from 'organisms/ItemList'
-import ToolPage from 'templates/ToolPage'
+import { Decision, DecisionState } from '@/features/decisions/Decision'
+import DecisionItem from '@/organisms/DecisionItem'
+import ItemList from '@/organisms/ItemList'
+import ToolPage from '@/templates/ToolPage'
 
-const Decisions: React.FC = () => {
+const Index: React.FC = () => {
   const sampleDecisions: Decision[] = [
     {
       id: '1',
@@ -27,7 +27,7 @@ const Decisions: React.FC = () => {
     },
     {
       id: '3',
-      title: 'Select marketing agency for collaboration with the client X',
+      title: 'Select marketing agency for collaboration with client X',
       description: 'Description',
       state: DecisionState.CriteriaAdjustment,
       isArchived: false,
@@ -76,4 +76,4 @@ const Decisions: React.FC = () => {
   )
 }
 
-export default Decisions
+export default Index

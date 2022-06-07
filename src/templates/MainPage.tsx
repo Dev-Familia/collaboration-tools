@@ -1,10 +1,12 @@
 import { Flex, Heading } from '@chakra-ui/react'
 import React from 'react'
 
-import GridLinks, { GridLinkItems } from 'organisms/GridLinks'
+import GridLinks, { GridLinkItems } from '@/organisms/GridLinks'
+// import { GridLinkItems } from '@/organisms/GridLinks'
 
 type MainPageProps = {
   title: string
+  // items: string
   items: GridLinkItems
 }
 
@@ -15,7 +17,7 @@ const MainPage: React.FC<MainPageProps> = ({ title, items }) => (
     justify="center"
     minH="100vh"
     w="100vw"
-    bgGradient={'linear(to-br, gray.100, purple.100)'}
+    // bgGradient={'linear(to-br, gray.100, purple.100)'}
     color="gray.800"
     textAlign="center"
   >

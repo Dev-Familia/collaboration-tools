@@ -1,9 +1,9 @@
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { Button, Flex, useDisclosure, Text, Stack } from '@chakra-ui/react'
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 
-import BottomPanel from 'molecules/BottomPanel'
+import NavLink from '@/atoms/NavLink'
+import BottomPanel from '@/molecules/BottomPanel'
 
 import { MainMenuProps } from './MainMenu'
 
@@ -33,13 +33,7 @@ const MobileMainMenu: React.FC<MainMenuProps> = ({ linkItems }) => {
       <BottomPanel {...bottomPanelProps}>
         <Stack spacing="4">
           {linkItems.map((link) => (
-            <NavLink
-              key={link.path}
-              to={link.path}
-              style={({ isActive }): React.CSSProperties => ({
-                fontWeight: isActive ? 'bold' : 'normal',
-              })}
-            >
+            <NavLink key={link.path} href={link.path}>
               {link.name}
             </NavLink>
           ))}

@@ -1,8 +1,8 @@
 import { GridItem, Heading } from '@chakra-ui/react'
 import React from 'react'
-import { Link } from 'react-router-dom'
 
-import MotionDiv from 'atoms/MotionDiv'
+import MotionDiv from '@/atoms/MotionDiv'
+import NavLink from '@/atoms/NavLink'
 
 export type GridLinkItem = {
   name: string
@@ -23,19 +23,17 @@ const gridItemProps = {
 const GridLink: React.FC<GridLinkItem> = ({ name, path }) => {
   if (path) {
     return (
-      <Link to={path}>
+      <NavLink href={path}>
         <MotionDiv
           bgGradient="linear(to-br, purple.700, purple.800)"
           whileHover={{
-            scale: 1.15,
-            cursor: 'pointer',
-            border: '0.5vmin solid white',
+            scale: 1.1,
           }}
           {...gridItemProps}
         >
           <Heading fontSize="2xl">{name}</Heading>
         </MotionDiv>
-      </Link>
+      </NavLink>
     )
   }
 

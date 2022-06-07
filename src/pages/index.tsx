@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { GridLinkItems } from 'organisms/GridLinks'
-import { Paths } from 'Routes'
-import MainPage from 'templates/MainPage'
+import { GridLinkItems } from '@/organisms/GridLinks'
+import { Paths } from '@/routes'
+import MainPage from '@/templates/MainPage'
 
-const Home: React.FC = () => {
+const Index: React.FC = () => {
   const appLinks: GridLinkItems = [
     // { name: 'Team', path: Paths.Team },
     { name: 'Team' },
@@ -17,4 +17,4 @@ const Home: React.FC = () => {
   return <MainPage title="Collaboration Tools" items={appLinks} />
 }
 
-export default Home
+export default Index

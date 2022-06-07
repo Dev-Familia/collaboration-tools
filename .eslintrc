@@ -16,15 +16,15 @@
     "import/resolver": {
       "node": {
         "paths": [
-          "src"
+          "src",
+          "public"
         ]
       }
     }
   },
   "plugins": ["react", "@typescript-eslint", "sonarjs", "promise"],
   "extends": [
-    "react-app",
-    "react-app/jest",
+    "next",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "xo",
