@@ -27,7 +27,7 @@ const Decisions: React.FC = () => {
     },
     {
       id: '3',
-      title: 'Select marketing agency for collaboration with the client X',
+      title: 'Select marketing agency for collaboration with client X',
       description: 'Description',
       state: DecisionState.CriteriaAdjustment,
       isArchived: false,

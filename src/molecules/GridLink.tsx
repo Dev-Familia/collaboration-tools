@@ -27,9 +27,7 @@ const GridLink: React.FC<GridLinkItem> = ({ name, path }) => {
         <MotionDiv
           bgGradient="linear(to-br, purple.700, purple.800)"
           whileHover={{
-            scale: 1.15,
-            cursor: 'pointer',
-            border: '0.5vmin solid white',
+            scale: 1.1,
           }}
           {...gridItemProps}
         >
