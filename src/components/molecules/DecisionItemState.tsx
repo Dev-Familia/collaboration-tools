@@ -1,7 +1,7 @@
 import { HStack, Tooltip } from '@chakra-ui/react'
 import React from 'react'
 
-import RoundState from 'atoms/RoundState'
+import RoundState from 'components/atoms/RoundState'
 import { DecisionState } from 'features/decisions/Decision'
 
 type DecisionItemProps = { state: DecisionState }

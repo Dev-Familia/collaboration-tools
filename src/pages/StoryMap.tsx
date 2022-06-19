@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ToolPage from 'templates/ToolPage'
+import ToolPage from 'components/templates/ToolPage'
 
 const StoryMap: React.FC = () => (
   <ToolPage>

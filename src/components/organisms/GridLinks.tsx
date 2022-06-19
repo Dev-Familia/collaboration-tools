@@ -1,7 +1,7 @@
 import { Grid } from '@chakra-ui/react'
 import React from 'react'
 
-import GridLink, { GridLinkItem } from 'molecules/GridLink'
+import GridLink, { GridLinkItem } from 'components/molecules/GridLink'
 
 export type GridLinkItems = GridLinkItem[]
 type GridLinkProps = {

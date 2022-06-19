@@ -3,7 +3,7 @@ import { Button, Flex, useDisclosure, Text, Stack } from '@chakra-ui/react'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import BottomPanel from 'molecules/BottomPanel'
+import BottomPanel from 'components/molecules/BottomPanel'
 
 import { MainMenuProps } from './MainMenu'
 

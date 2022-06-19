@@ -2,8 +2,8 @@ import { LockIcon } from '@chakra-ui/icons'
 import { Grid, GridItem, SlideFade, Text } from '@chakra-ui/react'
 import React from 'react'
 
+import DecisionItemState from 'components/molecules/DecisionItemState'
 import { Decision } from 'features/decisions/Decision'
-import DecisionItemState from 'molecules/DecisionItemState'
 
 type DecisionItemProps = { decision: Decision }
 

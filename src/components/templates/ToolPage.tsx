@@ -1,7 +1,7 @@
 import { Box, Flex } from '@chakra-ui/react'
 import React from 'react'
 
-import MainMenu from 'organisms/MainMenu'
+import MainMenu from 'components/organisms/MainMenu'
 import { mainLinks } from 'Routes'
 
 type ToolPageProps = {

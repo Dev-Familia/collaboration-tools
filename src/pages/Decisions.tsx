@@ -1,9 +1,9 @@
 import React from 'react'
 
+import DecisionItem from 'components/organisms/DecisionItem'
+import ItemList from 'components/organisms/ItemList'
+import ToolPage from 'components/templates/ToolPage'
 import { Decision, DecisionState } from 'features/decisions/Decision'
-import DecisionItem from 'organisms/DecisionItem'
-import ItemList from 'organisms/ItemList'
-import ToolPage from 'templates/ToolPage'
 
 const Decisions: React.FC = () => {
   const sampleDecisions: Decision[] = [

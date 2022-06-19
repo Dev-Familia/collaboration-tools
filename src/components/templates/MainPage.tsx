@@ -1,7 +1,7 @@
 import { Flex, Heading } from '@chakra-ui/react'
 import React from 'react'
 
-import GridLinks, { GridLinkItems } from 'organisms/GridLinks'
+import GridLinks, { GridLinkItems } from 'components/organisms/GridLinks'
 
 type MainPageProps = {
   title: string
