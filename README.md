@@ -1,10 +1,10 @@
-# Collaboration tools
+# Collaboration tools (POC)
 
 Demo link: [Collaboration Tools](https://dev-familia.github.io/collaboration-tools/)
 
 This app is under development.
 
-First feature is about consent-based decision-making. 
+First feature/tool is about consent-based decision-making in decentralized environment. 
 
 ## Available scripts
 

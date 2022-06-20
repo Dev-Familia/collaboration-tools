@@ -1,3 +1,4 @@
+import { UserID } from 'features/users/User'
 import { createUUID } from 'services/generators/uuid'
 
 export enum DecisionState {
@@ -20,7 +21,9 @@ export type Decision = {
   description: string
   state: DecisionState
   isArchived: boolean
+  createdBy: UserID
   createdAt: string
+  updatedBy: UserID
   updatedAt: string
 }
 
@@ -29,18 +32,24 @@ export type EditableDecisionProps = {
   description: string
 }
 
-export const createDecision = (params: EditableDecisionProps): Decision => ({
+type CustomDecisionProps = EditableDecisionProps & {
+  createdBy: UserID
+  updatedBy?: UserID
+}
+
+export const createDecision = (params: CustomDecisionProps): Decision => ({
   id: createUUID(),
   ...params,
   state: DecisionState.ProblemDefinition,
   isArchived: false,
   createdAt: new Date().toISOString(),
+  updatedBy: params.updatedBy ?? params.createdBy,
   updatedAt: new Date().toISOString(),
 })
 
 export const updateDecision = (
   decision: Decision,
-  updatedProps: Partial<EditableDecisionProps>,
+  updatedProps: Partial<CustomDecisionProps>,
 ): Decision =>
   Object.assign(decision, {
     ...updatedProps,
