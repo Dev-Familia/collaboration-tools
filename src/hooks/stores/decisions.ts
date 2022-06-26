@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 import { Decision, DecisionState } from 'features/decisions/Decision'
 import { LocalStorageReturn, useLocalStorage } from 'hooks/localStorage'
 
@@ -8,9 +9,9 @@ const initialState: Decision[] = [
     description: 'Description',
     state: DecisionState.Closed,
     isArchived: true,
-    createdBy: 'John Doe',
+    createdBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     createdAt: '2022-02-11',
-    updatedBy: 'John Doe',
+    updatedBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     updatedAt: '2022-03-04',
   },
   {
@@ -19,9 +20,9 @@ const initialState: Decision[] = [
     description: 'Description',
     state: DecisionState.FinalEvaluation,
     isArchived: false,
-    createdBy: 'John Doe',
+    createdBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     createdAt: '2022-02-15',
-    updatedBy: 'John Doe',
+    updatedBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     updatedAt: '2022-03-14',
   },
   {
@@ -30,9 +31,9 @@ const initialState: Decision[] = [
     description: 'Description',
     state: DecisionState.CriteriaAdjustment,
     isArchived: false,
-    createdBy: 'John Doe',
+    createdBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     createdAt: '2022-02-18',
-    updatedBy: 'John Doe',
+    updatedBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     updatedAt: '2022-03-18',
   },
   {
@@ -41,9 +42,9 @@ const initialState: Decision[] = [
     description: 'Description',
     state: DecisionState.ResistanceInvestigation,
     isArchived: true,
-    createdBy: 'John Doe',
+    createdBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     createdAt: '2022-02-24',
-    updatedBy: 'John Doe',
+    updatedBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     updatedAt: '2022-03-24',
   },
   {
@@ -52,9 +53,9 @@ const initialState: Decision[] = [
     description: 'Description',
     state: DecisionState.ResultsDefinition,
     isArchived: true,
-    createdBy: 'John Doe',
+    createdBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     createdAt: '2022-03-01',
-    updatedBy: 'John Doe',
+    updatedBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     updatedAt: '2022-04-01',
   },
   {
@@ -63,9 +64,9 @@ const initialState: Decision[] = [
     description: 'Description',
     state: DecisionState.ProblemDefinition,
     isArchived: false,
-    createdBy: 'John Doe',
+    createdBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     createdAt: '2022-03-10',
-    updatedBy: 'John Doe',
+    updatedBy: 'eb84ead7-0824-469b-aecc-fc1b6332628c',
     updatedAt: '2022-04-10',
   },
 ]
