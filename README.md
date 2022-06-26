@@ -1,10 +1,4 @@
-# Collaboration tools (POC)
-
-Demo link: [Collaboration Tools](https://dev-familia.github.io/collaboration-tools/)
-
-This app is under development.
-
-First feature/tool is about consent-based decision-making in decentralized environment. 
+# Collaboration tools (React experiment)
 
 ## Available scripts
 
@@ -45,7 +39,7 @@ yarn build
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Contributing
+## Notes
 
 Configuration of absolute imports was based on [the article](https://medium.com/hackernoon/absolute-imports-with-create-react-app-4c6cfb66c35d).   
 
