@@ -36,7 +36,7 @@ const DecisionItem: React.FC<DecisionItemProps> = ({ decision }) => {
           <DecisionItemState state={decision.state} />
         </GridItem>
         <GridItem as={Text} fontSize="xs" color="gray.600">
-          {decision.updatedAt}
+          {decision.updatedAt.substring(0, 10)}
         </GridItem>
       </Grid>
     </SlideFade>
